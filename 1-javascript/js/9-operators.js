@@ -2,13 +2,27 @@
 
 var liczba1 = 13, liczba2 = 5;
 
-var wynik;
+if (liczba1>3) && (liczba2<10)
+{
+    console.log("tak");
+}
 
-wynik = liczba1 % liczba2;
-console.log(wynik);
+//var wynik;
 
-var licz = 2;
-licz +=3;
+//wynik = liczba1 == liczba2;
+//console.log("równe");
+
+//var licz = 2;
+//licz +=3;
 //licz = licz + 3;
 
-console.log(licz);
+//console.log(licz);
+
+(2>5)? console.log("tak") :console.log("nie");
+
+if(2>5) {
+    console.log("tak")}
+else{
+    console.log("nie");
+}
+}
