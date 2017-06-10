@@ -35,3 +35,4 @@ var jsonOsoby = {
          }
      ]
 }
+console.log(jsonOsoby);
