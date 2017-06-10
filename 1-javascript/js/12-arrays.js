@@ -24,9 +24,16 @@ for (var i = 0; i <imiona.length ; i++) {
     console.log(imiona[i]);
 }
 */
-/*
-imiona.forEach(function(element, i) {
+/*imiona.forEach(function(element, i) {
     console.log ('Element nr' + i + '=' + element);
 });
-*/
-console.log(imiona.join("-"));
+console.log(imiona.join("-"));*/
+
+/*console.log(imiona.reverse);
+(*/
+var imionaMeskie = ['Robert', 'Mariusz', 'Andrzej'];
+var zbiorImion = imionaMeskie.concat(imiona);
+console.log(zbiorImion);
+
+console.log(zbiorImion).indexOf('Mariusz'));
+console.log(Array.isArray(zbiorImion));
